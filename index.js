@@ -1,13 +1,14 @@
 console.log("Hello World");
+// console.log("Hello World");
 
-// const assert = require('assert');
-//
+// const assert = require('assert');  //this is used to get the assert library
+// //
 // let x = 3;
 // let y = 7;
 // let z = "2";
-//
+// //
 // assert(x + y === 10);
-// //assert(x + z == 5);
+// assert(x + z == 5);
 // assert(x + z === "32");
 //
 // function doubleNumber(number) {
@@ -39,18 +40,18 @@ console.log("Hello World");
 // 	}
 // 	else if (typeof a === "object" && typeof b === "object") {
 // 		return compareObjects(a,b);
-// 	}	
-//	
+// 	}
+//
 // 	if (a === b) {
 // 		return true;
 // 	} else {
 // 		return false;
 // 	}
-//	
+//
 // 	function compareObjects(a, b) {
 // 		let keysA = Object.keys(a);
 // 		let keysB = Object.keys(b);
-//		
+//
 // 		for (const key of keysA) {
 // 			if (typeof a[key] === "object") {
 // 				if (typeof b[key] !== undefined && typeof b[key] === "object") {
@@ -65,12 +66,12 @@ console.log("Hello World");
 // 			}
 // 		}
 // 		return true;
-//		
+//
 // 	}
-//	
+//
 // 	function compareArray(a, b) {
 // 		if( a.length !== b.length) return false;
-//		
+//
 // 		for (let i = 0; i < a.length; i++) {
 // 			if(a[i] !== b[i]) {
 // 				return false
